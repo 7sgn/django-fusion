@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sette',
+        'NAME': 'database-2',
         'USER': 'sette',
         'PASSWORD': '12345678',
-        'HOSTS': 'database-2.c5uca2wim0hj.us-east-1.rds.amazonaws.com',
+        'HOSTS': 'localhost',
         'PORT': '5432'
 }
 }
